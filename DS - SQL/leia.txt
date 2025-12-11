@@ -1,0 +1,11 @@
+OBS 1:
+Caso esteja dando erro de não encontrar nenhuma biblioteca sql tente instalar ela pelo comando:
+pip install mysql-connector-python
+se esse comando estiver sendo barrado pelo console, vá no powershell colocando ele como administrador
+e coloque o comando: Set-ExecutionPolicy RemoteSigned
+Digite S e confirme
+
+
+OBS 2: 
+caso não seja possível iniciar a aplicação mesmo com a biblioteca instalada, reinstale o .venv, muito
+provavelmente sua versão python seja diferente da do projeto
